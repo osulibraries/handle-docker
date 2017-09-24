@@ -2,7 +2,7 @@
 FROM ubuntu:16.04
 MAINTAINER Corey Hinshaw <hinshaw.25@osu.edu>
 
-ENV HSJ_VERSION 8.1.1
+ENV HSJ_VERSION 8.1.3
 
 RUN apt-get update \
   && apt-get install -y curl openjdk-8-jdk-headless \
